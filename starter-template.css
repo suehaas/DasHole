@@ -6,12 +6,17 @@ body {
   text-align: center;
 }
 
-.typed-cursor{
+.typed-cursor {
     opacity: 1;
     -webkit-animation: blink 0.7s infinite;
     -moz-animation: blink 0.7s infinite;
     animation: blink 0.7s infinite;
 }
+
+.element {
+    display: inline-block;
+}
+
 @keyframes blink{
     0% { opacity:1; }
     50% { opacity:0; }

@@ -14,16 +14,15 @@
 
     <!-- Typewritter JS http://www.mattboldt.com/demos/typed-js/ -->
     <script src="typed.js-master/dist/typed.min.js"></script>
+
     <script>
-      document.addEventListener('DOMContentLoaded', function(){
-          Typed.new('.element', {
-            strings: ["Save It <strong>Quickly</strong>.", "Find It <strong>Fast!</strong>"],
-            typeSpeed: 0
-          });
-      });
+    	document.addEventListener("DOMContentLoaded", function(){
+    		Typed.new(".element", {
+    			strings: ["<p>Save It <strong>Quickly</strong>...</p>", "<p>Find It ^200 <strong>Fast!^3000</strong></p>"],
+    			typeSpeed: 0
+    		});
+    	});
     </script>
-
-
     <!-- Custom styles for this template -->
     <link href="starter-template.css" rel="stylesheet">
   </head>
@@ -64,14 +63,13 @@
     <div class="container">
 
       <div class="starter-template">
-        <h1><div class="element"></div></h1>
+        <h1>
+          <div class="element"></div>
+        </h1>
 
-        <p><img src="img/saveditAppScreenshot.png" width="400" height="300"></p>
+    <!--    <p><img src="img/saveditAppScreenshot.png" width="400" height="300"></p> -->
 
         <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
-
-
-
 
       </div>
 
