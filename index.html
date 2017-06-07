@@ -12,6 +12,18 @@
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 
+    <!-- Typewritter JS http://www.mattboldt.com/demos/typed-js/ -->
+    <script src="typed.js-master/dist/typed.min.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function(){
+          Typed.new('.element', {
+            strings: ["Save It <strong>Quickly</strong>.", "Find It <strong>Fast!</strong>"],
+            typeSpeed: 0
+          });
+      });
+    </script>
+
+
     <!-- Custom styles for this template -->
     <link href="starter-template.css" rel="stylesheet">
   </head>
@@ -52,8 +64,15 @@
     <div class="container">
 
       <div class="starter-template">
-        <h1>Bootstrap starter template</h1>
+        <h1><div class="element"></div></h1>
+
+        <p><img src="img/saveditAppScreenshot.png" width="400" height="300"></p>
+
         <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+
+
+
+
       </div>
 
     </div><!-- /.container -->
