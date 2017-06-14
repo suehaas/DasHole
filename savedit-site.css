@@ -20,6 +20,11 @@ body {
   text-align: center;
 }
 
+.savedit-quote-row {
+  padding: 30px 5px 10px 5px;
+  text-align: center;
+}
+
 .typed-cursor {
     opacity: 1;
     -webkit-animation: blink 0.7s infinite;
@@ -30,8 +35,8 @@ body {
 .bubble
 {
 position: relative;
-width: 220px;
-height: 280px;
+width: 50%;
+height: 100%;
 padding: 2px;
 background: #FFFFFF;
 -webkit-border-radius: 10px;
@@ -52,7 +57,7 @@ width: 0;
 z-index: 1;
 margin-left: -8px;
 bottom: -20px;
-left: 25%;
+left: 35%;
 }
 
 .bubble:before
@@ -67,7 +72,7 @@ width: 0;
 z-index: 0;
 margin-left: -13px;
 bottom: -31px;
-left: 25%;
+left: 35%;
 }
 
 @keyframes blink{
