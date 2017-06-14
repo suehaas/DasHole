@@ -2,26 +2,30 @@ body {
   padding-top: 50px;
 }
 
+
+.element {
+    display: inline-block;
+}
+
+.large-icon {
+  padding: 5px 30px;
+}
+
 .savedit-site {
   padding: 40px 15px;
   text-align: center;
 }
 
 .savedit-content-row {
-  padding: 10px 10px;
+  padding: 10px 5px 10px 5px;
   text-align: center;
 }
-
 
 .typed-cursor {
     opacity: 1;
     -webkit-animation: blink 0.7s infinite;
     -moz-animation: blink 0.7s infinite;
     animation: blink 0.7s infinite;
-}
-
-.element {
-    display: inline-block;
 }
 
 @keyframes blink{
