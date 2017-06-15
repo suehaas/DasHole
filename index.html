@@ -18,7 +18,7 @@
     <script>
     	document.addEventListener("DOMContentLoaded", function(){
     		Typed.new(".element", {
-    			strings: ["<p>Save It <strong>Quickly</strong>...</p>", "<p>Find It ^200 <strong>Fast!^3000</strong></p>"],
+    			strings: ["<p>Save It <strong>Quickly.</strong></p>", "<p>Find It ^200 <strong>Fast!^3000</strong></p>"],
     			typeSpeed: 0
     		});
     	});
@@ -28,13 +28,11 @@
   </head>
 
   <body class="bg-faded">
-
     <nav class="navbar navbar-toggleable-md navbar-light bg-faded fixed-top">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <a class="navbar-brand" href="#"><img src="img/site-logo.png" srcset="img/site-logo.png 1x, img/site-logo@2x.png 2x" alt="SavedIt"></a>
-
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
@@ -51,7 +49,6 @@
           </li>
         -->
         </ul>
-
         <form class="form-inline my-2 my-lg-0">
           <!--<input class="form-control mr-sm-2" type="text" placeholder="Search">
           <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
@@ -61,18 +58,14 @@
     </nav>
 
     <div class="container">
-
       <div class="savedit-site">
         <h1>
           <div class="element"></div>
         </h1>
-
           <!-- We need to change this to a more meaningful image that explains how it works -->
            <img src="img/saveditAppScreenshot.png" width="300" height="225"><br>
-
-
           <form class="form-inline justify-content-center">
-            <p> <!-- Need to add display: inline-block; or something similar to some elements to fix full width text/submit alignment issue -->
+            <p>
               <div class="form-group mx-sm-3">
                 <label for="text" class="sr-only">Email</label>
                 <input type="text" class="form-control" id="text" placeholder="Email">
@@ -84,20 +77,13 @@
               </div>
             </p>
           </form>
-
-
-
           <p class="lead">SavedIt is in private beta testing.<br>We'll invite you soon!</p>
-
       </div>
-
     </div><!-- /.container -->
 
     <div class="bg-inverse text-white d-flex justify-content-center align-items-center savedit-content-row">
       Once you find it, drop it in SavedIt!
     </div>
-
-
 
     <div class="bg-success text-muted d-flex flex-row flex-wrap justify-content-around align-items-center savedit-content-row">
 		<div class="col-md-4 text-center">
@@ -127,8 +113,7 @@
           <p>Don't lose your own unique thoughts! Keep them in SavedIt. You can even add them to a saved web page or document!</p>
         </div>
       </div>
-    </div>
-
+    </div><!-- /icon area -->
 
     <div class="text-muted d-flex flex-row flex-wrap justify-content-around align-items-center savedit-quote-row">
       <div class="bubble justify-content-center">
@@ -142,31 +127,15 @@
       - Jeff Nadler
     </div>
 
-
-<!-- Figure out why there is a white stripe down the right edge on mobile. -->
-
-<!-- start footer -/->
-<div class="row footer text-row">
-  <div class="container">
-    <div class="copyright">
-        <a href="http://www.savedit.com/#">You'll be glad you SavedIt!</a>. <br>
-        Copyright  &copy;2017 AppIgnition LLC.<br>
-        Thoughts to share with us?  Send us a message at <a href="mailto:savedit@appignition.com">savedit@appignition.com</a>
-    </div>
-  </div>
-</div>
-<!-- end footer -->
-
-<footer class="footer">
-  <div class="container">
-    <span class="text-muted">
-      <a href="http://www.savedit.com/#">You'll be glad you SavedIt!</a><br>
-      Copyright  &copy;2017 AppIgnition LLC.<br>
-      Thoughts to share with us?  Send us a message at <a href="mailto:savedit@appignition.com">savedit@appignition.com</a>
-    </span>
-  </div>
-</footer>
-
+    <footer class="footer">
+      <div class="container">
+        <span class="text-muted">
+          <a href="http://www.savedit.com/#">You'll be glad you SavedIt!</a><br>
+          Copyright  &copy;2017 AppIgnition LLC.<br>
+          Thoughts to share with us?  Send us a message at <a href="mailto:savedit@appignition.com">savedit@appignition.com</a>
+        </span>
+      </div>
+    </footer>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
