@@ -35,6 +35,10 @@ body {
   text-align: center;
 }
 
+.savedit-footer {
+  font-size: 10px;
+}
+
 .typed-cursor {
     opacity: 1;
     -webkit-animation: blink 0.7s infinite;
