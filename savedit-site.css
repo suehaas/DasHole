@@ -39,6 +39,12 @@ body {
   font-size: 10px;
 }
 
+@include media-breakpoint-up(sm) {
+  savedit-footer {
+    font-size: 6px;
+  }
+}
+
 .typed-cursor {
     opacity: 1;
     -webkit-animation: blink 0.7s infinite;
