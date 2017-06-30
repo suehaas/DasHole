@@ -27,6 +27,11 @@ body {
   font-weight: bold;
 }
 
+.savedit-content-row {
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+}
+
 .savedit-divider-column {
   background-color: #AAAAAA;
   max-width: 2px;
@@ -37,16 +42,8 @@ body {
   text-align: center;
 }
 
-.savedit-blue-text {
-
-};
-
-.savedit-green-text {
-
-};
-
 .savedit-quote-row {
-  padding: 30px 5px 10px 5px;
+  padding: 30px 50px 10px 5px;
   text-align: center;
 }
 
