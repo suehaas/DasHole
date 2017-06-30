@@ -20,15 +20,30 @@ body {
   text-align: center;
 }
 
-.savedit-content-row {
-  padding: 10px 10px 10px 10px;
-  text-align: center;
+.savedit-grid-header {
+  background-color: #AAAAAA;
+  border-radius: 0.3rem;
+  text-transform: uppercase;
+  font-weight: bold;
 }
+
+.savedit-divider-column {
+  background-color: #AAAAAA;
+  max-width: 2px;
+};
 
 .savedit-typed-row {
   height: 70px;
   text-align: center;
 }
+
+.savedit-blue-text {
+
+};
+
+.savedit-green-text {
+
+};
 
 .savedit-quote-row {
   padding: 30px 5px 10px 5px;
