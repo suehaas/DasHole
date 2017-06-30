@@ -6,6 +6,10 @@ body {
     display: inline-block;
 }
 
+.jumbotron {
+  background-color: #5CB85C !important;
+}
+
 .large-icon {
   padding: 5px 30px;
 }
