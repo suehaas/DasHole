@@ -43,7 +43,7 @@ body {
 };
 
 .savedit-typed-row {
-/* trying to hold space for typed element so content below does not jump around  height: 500px !important; */
+/* ...  go back and look at history ... did it happen when rearranging css elements in this file? ... trying to hold space for typed element so content below does not jump around  height: 500px !important; */
   text-align: center;
 }
 
