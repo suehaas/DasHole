@@ -8,6 +8,7 @@ body {
 
 .jumbotron {
   background-color: #5CB85C !important;
+  text-transform: uppercase;
 }
 
 .large-icon {
