@@ -43,7 +43,7 @@ body {
 };
 
 .savedit-typed-row {
-  height: 70px;
+/* trying to hold space for typed element so content below does not jump around  height: 500px !important; */
   text-align: center;
 }
 
@@ -59,6 +59,12 @@ body {
 @include media-breakpoint-up(sm) {
   savedit-footer {
     font-size: 6px;
+  }
+}
+
+@include media-breakpoint-up(sm) {
+  table-responsive {
+    max-width: 170px;
   }
 }
 
