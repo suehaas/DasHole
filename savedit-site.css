@@ -6,6 +6,11 @@ body {
     display: inline-block;
 }
 
+.savedit-typed-row {
+  height: 70px !important;
+  text-align: center;
+}
+
 .jumbotron {
   background-color: #5CB85C !important;
   text-transform: uppercase;
@@ -42,11 +47,6 @@ body {
   max-width: 2px;
 };
 
-.savedit-typed-row {
-/* ...  go back and look at history ... did it happen when rearranging css elements in this file? ... trying to hold space for typed element so content below does not jump around  height: 500px !important; */
-  text-align: center;
-}
-
 .savedit-quote-row {
   padding: 30px 50px 10px 5px;
   text-align: center;
@@ -62,11 +62,6 @@ body {
   }
 }
 
-@include media-breakpoint-up(sm) {
-  table-responsive {
-    max-width: 170px;
-  }
-}
 
 .typed-cursor {
     opacity: 1;
