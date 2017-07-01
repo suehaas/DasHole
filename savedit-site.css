@@ -11,6 +11,12 @@ body {
   text-align: center;
 }
 
+.savedit-quote-row {
+  padding: 10px 50px 10px 5px;
+  text-align: center;
+}
+
+
 .jumbotron {
   background-color: #5CB85C !important;
   text-transform: uppercase;
@@ -62,11 +68,6 @@ body {
   background-color: #AAAAAA;
   max-width: 2px;
 };
-
-.savedit-quote-row {
-  padding: 30px 50px 10px 5px;
-  text-align: center;
-}
 
 .savedit-footer {
   font-size: 10px;
