@@ -33,8 +33,23 @@ body {
 .savedit-grid-header {
   background-color: #AAAAAA;
   border-radius: 0.3rem;
+  padding: 10px;
   text-transform: uppercase;
   font-weight: bold;
+}
+
+.savedit-grid-row {
+  background-color: #EAEAEA;
+  border-radius: 0.3rem;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.savedit-grid-row-white {
+  background-color: #FFFFFF;
+  border-radius: 0.3rem;
+  padding: 10px;
 }
 
 .savedit-content-row {
