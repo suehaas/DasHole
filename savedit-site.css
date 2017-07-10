@@ -3,7 +3,7 @@ body {
 }
 
 .element {
-    display: inline-block;
+  display: inline-block;
 }
 
 .savedit-typed-row {
@@ -81,7 +81,6 @@ body {
     font-size: 6px;
   }
 }
-
 
 .typed-cursor {
     opacity: 1;
