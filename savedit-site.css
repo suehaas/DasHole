@@ -63,6 +63,10 @@ body {
   text-align: center;
 }
 
+.savedit-text-box {
+  max-width: 300px;
+}
+
 .savedit-divider-column {
   background-color: #AAAAAA;
   max-width: 2px;
